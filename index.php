@@ -23,13 +23,19 @@
             <div class ="row-fluid" style="background-color: green">
                  <div class="span8" id='marcoCentral'>
                     
+                    
                 </div>
                 </div>
-                <form accept-charset="utf-8" method="POST">
-                <input type="text" name="busqueda" id="busqueda" value="" placeholder="" maxlength="30" autocomplete="off" />
-                </form>
-                <div id="resultadoBusqueda"></div>
-                
+             <div class ="row-fluid" style="background-color: black">
+                <nav class="navbar navbar-light bg-light">
+                    <a class="navbar-brand">Busca un cliente por DNI</a>
+                    <form class="form-inline">
+                      <input class="form-control mr-sm-2" type="search" placeholder="DNI" aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                  </nav>
+                </div>
+                <div class ="row-fluid" style="background-color: violet">
                 <div class="span4" style="background-color: yellow">
                     
                   <select name="listaNombres" id="lista">
@@ -43,6 +49,7 @@
                       ?>
                   </select>   
                 </div>
+                    </div>
                 
                
                 
