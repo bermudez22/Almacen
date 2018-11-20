@@ -21,7 +21,17 @@
         ?>
         <div class="container"style="background-color: blue">
             <div class ="row-fluid" style="background-color: green">
+                 <div class="span8" id='marcoCentral'>
+                    
+                </div>
+                </div>
+                <form accept-charset="utf-8" method="POST">
+                <input type="text" name="busqueda" id="busqueda" value="" placeholder="" maxlength="30" autocomplete="off" />
+                </form>
+                <div id="resultadoBusqueda"></div>
+                
                 <div class="span4" style="background-color: yellow">
+                    
                   <select name="listaNombres" id="lista">
                       <?php
                       while ($fila = $consulta->fetch_assoc()) {
@@ -34,9 +44,9 @@
                   </select>   
                 </div>
                 
-                <div class="span8" id='marcoCentral'>
-                    
-                </div>
+               
+                
+                 <div class ="row-fluid" style="background-color: red">
                 <div id="contenedor">
         
          <br/><br/>
@@ -54,12 +64,12 @@
        
         <br/><br/><br/>
 
-        <select class="test" id="tecnologia" name="tecnologia[]" multiple="multiple">
+<!--        <select class="test" id="tecnologia" name="tecnologia[]" multiple="multiple">
             <option>2G</option> 
             <option>3G</option> 
             <option>4G</option> 
             <option>TDD</option>
-        </select>
+        </select>-->
 
         </br></br><br/><br/>
         <button onclick="anadir();">Añadir</button>
@@ -67,7 +77,8 @@
         <input type="submit" onclick="buscar()" value="buscar">
 
     </div>
-            </div>
+                     </div></div></div>
+           
             
         </div>
         <script>
