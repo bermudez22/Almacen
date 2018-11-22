@@ -20,12 +20,19 @@
         $consulta = $conexion -> query("SELECT * FROM usuariosalmacen"); 
         ?>
         <div class="container"style="background-color: blue">
+            
+            
+             <div class ="row-fluid" style="background-color: grey" align="center" font="">
+                 <h1>Almacen</h1>
+                </div>
+           
+         
+            
             <div class ="row-fluid" style="background-color: green">
-                 <div class="span8" id='marcoCentral'>
-                    
-                    
+                 <div class="span8" id='marcoCentral'>   
                 </div>
                 </div>
+            
              <div class ="row-fluid" style="background-color: black">
                 <nav class="navbar navbar-light bg-light">
                     <a class="navbar-brand">Busca un cliente por DNI</a>
@@ -35,6 +42,8 @@
                     </form>
                   </nav>
                 </div>
+            
+            
                 <div class ="row-fluid" style="background-color: violet">
                 <div class="span4" style="background-color: yellow">
                     
@@ -55,8 +64,6 @@
                 
                  <div class ="row-fluid" style="background-color: red">
                 <div id="contenedor">
-        
-         <br/><br/>
         <label>EMAIL</label>
         <input type="text" id="numero">
 
@@ -67,24 +74,24 @@
         <br/><br/>
         <label>APELLIDO</label>
         <input type="text" id="apellido"> 
-
-       
         <br/><br/><br/>
-
 <!--        <select class="test" id="tecnologia" name="tecnologia[]" multiple="multiple">
             <option>2G</option> 
             <option>3G</option> 
             <option>4G</option> 
             <option>TDD</option>
         </select>-->
-
         </br></br><br/><br/>
         <button onclick="anadir();">Añadir</button>
 
         <input type="submit" onclick="buscar()" value="buscar">
 
-    </div>
-                     </div></div></div>
+                </div>
+                </div>
+        
+        
+        
+       
            
             
         </div>
